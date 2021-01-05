@@ -1,0 +1,2 @@
+const myHeading = document.querySelector('h1'); // uses .querySelector uses DOM API to grab a reference to the h1 heading and stores it in myHeading
+myHeading.textContent = 'Hello World!'; // sets myHeading text content to 'Hello World!' which will be reflected on the DOM
