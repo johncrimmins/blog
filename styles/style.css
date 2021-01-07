@@ -23,6 +23,18 @@
 
 .social-icons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: flex-start;
+    width: 125px;
+    column-gap: 15px;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
 }
