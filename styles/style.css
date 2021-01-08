@@ -31,8 +31,14 @@
 .social-icons img {
     width: 25px;
     height: 25px;
+    opacity: .5;
 }
 
+
+/* still can't get this working for some reason... */
+.social-icon-w-link:hover {
+    opacity: 1;
+}
 
 ul {
     list-style-type: none;
